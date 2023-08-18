@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     
-    <div id="about" className="lg:snap-start lg:h-screen bg-gray-800">
+    <div id="about" className=" bg-gray-800">
             <div className="grid content-center max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-48 lg:grid-cols-12">
                 
                 <div className="mr-auto place-self-center lg:col-span-7">
