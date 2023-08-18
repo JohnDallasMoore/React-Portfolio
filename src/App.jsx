@@ -16,7 +16,7 @@ function App() {
   const DisplaySwitch = (state) => {
     switch (state) {
       case '':
-        return <Home />
+        return <Home setDisplayState = { setDisplayState } />
       case 'about':
         return <About />
       case 'projects':
