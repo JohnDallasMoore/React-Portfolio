@@ -9,7 +9,7 @@ function Navbar({setDisplayState}) {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <img src={Logo} className="h-14 mr-3" alt="Coding Logo"></img>
         <div className="flex md:order-2">
-            <button className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none bg-blue-600 hover:bg-blue-700 focus:ring-blue-800">
+            <button onClick={() => window.open('https://docs.google.com/document/d/1JV9zUFeIbNMx1_75C3PK571XGfNa_zkj0iWlTsGoQAE/edit?usp=sharing', '__blank')} className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none bg-blue-600 hover:bg-blue-700 focus:ring-blue-800">
                 Resume
             </button>
             <button data-collapse-toggle="navbar-sticky" type="button" className="inline-flex items-center p-2 text-sm rounded-lg md:hidden focus:outline-none focus:ring-2 text-gray-400 hover:bg-gray-700 focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
