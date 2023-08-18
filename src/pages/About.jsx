@@ -8,7 +8,7 @@ function About() {
                 
                 <div className="mr-auto place-self-center lg:col-span-7">
                     <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white">About Me</h1>
-                    <p className="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-gray-400">I'm an ambitious professional currently enrolled in the Full Stack Coding Bootcamp at the University of Kansas, dedicated to expanding my web development skills. Passionate about technology, I stay ahead of industry trends and thrive in high-pressure environments. With strong problem-solving abilities, I aim to create impactful and user-friendly web applications.</p>
+                    <p className="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-2xl text-gray-400">I'm an ambitious professional currently enrolled in the Full Stack Coding Bootcamp at the University of Kansas, dedicated to expanding my web development skills. Passionate about technology, I stay ahead of industry trends and thrive in high-pressure environments. With strong problem-solving abilities, I aim to create impactful and user-friendly web applications.</p>
                 </div>
                 <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
                     <img className="ml-6 rounded-full justify-center" src="/dallas-pic.jpg" alt="mockup"></img>
@@ -19,29 +19,29 @@ function About() {
                 <div class="max-w-lg w-3/12 p-6 border rounded-lg shadow bg-gray-800 border-gray-700">
                     <h5 class="text-center mb-2 text-3xl font-bold tracking-tight text-white">Skills</h5>
                     <hr className="mb-8"/>
-                    <div class="flex flex-wrap justify-center text-lg-center justify-start my-11 text-white">
-                                <span class="bg-blue-900 text-blue-300 text-2xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">CSS</span>
-                                <span class="bg-blue-900 text-blue-300 text-2xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">JavaScript</span>
-                                <span class="bg-blue-900 text-blue-300 text-2xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">HTML</span>
-                                <span class="bg-blue-900 text-blue-300 text-2xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">TypeScript</span>
-                                <span class="bg-blue-900 text-blue-300 text-2xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">jQuery</span>
-                                <span class="bg-blue-900 text-blue-300 text-2xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Bootstrap</span>
-                                <span class="bg-blue-900 text-blue-300 text-2xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Tailwind</span>
-                                <span class="bg-blue-900 text-blue-300 text-2xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Node</span>
-                                <span class="bg-blue-900 text-blue-300 text-2xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Rest API's</span>
-                                <span class="bg-blue-900 text-blue-300 text-2xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Git</span>
-                                <span class="bg-blue-900 text-blue-300 text-2xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">MySQL</span>
-                                <span class="bg-blue-900 text-blue-300 text-2xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Mongo</span>
-                                <span class="bg-blue-900 text-blue-300 text-2xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">NoSQL</span>
-                                <span class="bg-blue-900 text-blue-300 text-2xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Express</span>
-                                <span class="bg-blue-900 text-blue-300 text-2xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Sequelize</span>
-                                <span class="bg-blue-900 text-blue-300 text-2xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Handlebars</span>
-                                <span class="bg-blue-900 text-blue-300 text-2xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Model View Controllers</span>
-                                <span class="bg-blue-900 text-blue-300 text-2xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Object Oriented Programming</span>
-                                <span class="bg-blue-900 text-blue-300 text-2xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Object-Rational Mapping</span>
-                                <span class="bg-blue-900 text-blue-300 text-2xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Heroku</span>
-                                <span class="bg-blue-900 text-blue-300 text-2xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Jest</span>
-                                <span class="bg-blue-900 text-blue-300 text-2xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">GraphQL</span>
+                    <div class="flex flex-wrap justify-center text-lg-center justify-start my-8 text-white">
+                                <span class="bg-blue-900 text-blue-300 text-xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">CSS</span>
+                                <span class="bg-blue-900 text-blue-300 text-xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">JavaScript</span>
+                                <span class="bg-blue-900 text-blue-300 text-xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">HTML</span>
+                                <span class="bg-blue-900 text-blue-300 text-xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">TypeScript</span>
+                                <span class="bg-blue-900 text-blue-300 text-xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">jQuery</span>
+                                <span class="bg-blue-900 text-blue-300 text-xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Bootstrap</span>
+                                <span class="bg-blue-900 text-blue-300 text-xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Tailwind</span>
+                                <span class="bg-blue-900 text-blue-300 text-xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Node</span>
+                                <span class="bg-blue-900 text-blue-300 text-xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Rest API's</span>
+                                <span class="bg-blue-900 text-blue-300 text-xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Git</span>
+                                <span class="bg-blue-900 text-blue-300 text-xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">MySQL</span>
+                                <span class="bg-blue-900 text-blue-300 text-xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Mongo</span>
+                                <span class="bg-blue-900 text-blue-300 text-xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">NoSQL</span>
+                                <span class="bg-blue-900 text-blue-300 text-xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Express</span>
+                                <span class="bg-blue-900 text-blue-300 text-xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Sequelize</span>
+                                <span class="bg-blue-900 text-blue-300 text-xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Handlebars</span>
+                                <span class="bg-blue-900 text-blue-300 text-xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Model View Controllers</span>
+                                <span class="bg-blue-900 text-blue-300 text-xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Object Oriented Programming</span>
+                                <span class="bg-blue-900 text-blue-300 text-xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Object-Rational Mapping</span>
+                                <span class="bg-blue-900 text-blue-300 text-xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Heroku</span>
+                                <span class="bg-blue-900 text-blue-300 text-xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">Jest</span>
+                                <span class="bg-blue-900 text-blue-300 text-xl mt-2 font-medium mr-2 px-2.5 py-0.5 rounded">GraphQL</span>
                             </div>
                     
                 </div>
