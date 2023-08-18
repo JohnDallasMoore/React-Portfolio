@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     
-    <div id="about" className="lg:snap-start lg:h-screen bg-gray-900">
+    <div id="about" className="lg:snap-start lg:h-screen bg-gray-800">
             <div className="grid content-center max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-48 lg:grid-cols-12">
                 
                 <div className="mr-auto place-self-center lg:col-span-7">
@@ -15,8 +15,8 @@ function About() {
                 </div>  
                             
             </div>
-            <div className="bg-gray-900 flex justify-center justify-around py-8">
-                <div class="max-w-lg w-3/12 p-6 border rounded-lg shadow bg-gray-800 border-gray-700">
+            <div className="bg-gray-800 flex justify-center justify-around py-8">
+                <div class="max-w-lg w-3/12 p-6 border rounded-lg shadow bg-gray-900 border-gray-700">
                     <h5 class="text-center mb-2 text-3xl font-bold tracking-tight text-white">Skills</h5>
                     <hr className="mb-8"/>
                     <div class="flex flex-wrap justify-center text-lg-center justify-start my-8 text-white">
@@ -46,12 +46,12 @@ function About() {
                     
                 </div>
 
-                <div class="max-w-lg w-3/12 p-6 border rounded-lg shadow bg-gray-800 border-gray-700">
+                <div class="max-w-lg w-3/12 p-6 border rounded-lg shadow bg-gray-900 border-gray-700">
                     <h5 class="text-center mb-2 text-3xl font-bold tracking-tight text-white">Education</h5>
                     <hr className="mb-8"/>
                     <ol class="relative border-l border-gray-200 dark:border-gray-700">                  
                         <li class="mb-10 ml-6">            
-                            <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-gray-900">
+                            <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-gray-800">
                                 <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                                     <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
                                 </svg>
@@ -62,7 +62,7 @@ function About() {
                             
                         </li>
                         <li class="mb-10 ml-6">
-                            <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-gray-900">
+                            <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-gray-800">
                                 <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                                     <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
                                 </svg>
@@ -72,7 +72,7 @@ function About() {
                                         <p class="text-base font-normal text-gray-400">Bachelors of Science - Nursing</p>
                         </li>
                         <li class="ml-6">
-                            <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-gray-900">
+                            <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-gray-800">
                                 <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                                     <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
                                 </svg>
@@ -85,12 +85,12 @@ function About() {
                    
                 </div>
 
-                <div class="max-w-lg w-3/12 p-6 border rounded-lg shadow bg-gray-800 border-gray-700">
+                <div class="max-w-lg w-3/12 p-6 border rounded-lg shadow bg-gray-900 border-gray-700">
                     <h5 class="text-center mb-2 text-3xl font-bold tracking-tight text-white">Experience</h5>
                     <hr className="mb-8"/>
                     <ol class="relative border-l border-gray-200 dark:border-gray-700">                  
                         <li class="mb-10 ml-6">            
-                            <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-gray-900">
+                            <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-gray-800">
                                 <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                                     <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
                                 </svg>
@@ -101,7 +101,7 @@ function About() {
                             
                         </li>
                         <li class="mb-10 ml-6">
-                            <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-gray-900">
+                            <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-gray-800">
                                 <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                                     <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
                                 </svg>
@@ -111,7 +111,7 @@ function About() {
                             <p class="text-base font-normal text-gray-400">Registered Nurse</p>
                         </li>
                         <li class="ml-6">
-                            <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-gray-900">
+                            <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-gray-800">
                                 <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                                     <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
                                 </svg>
