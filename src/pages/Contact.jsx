@@ -30,7 +30,7 @@ function Contact() {
     
             <section className="bg-gray-800">
                 <div className="py-0 px-4 mx-auto max-w-screen-md">
-                    <form action="https://api.sheetmonkey.io/form/e36KaD7jnmqySDEwGcHBqG" method="post" className="space-y-4">
+                    <form action="https://api.sheetmonkey.io/form/hMj4F3QZemK3y58wdYokuc" method="post" className="space-y-4">
                         <div>
                             <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-300">Your email</label>
                             <input type="email" name="Email" id="email" className="border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 shadow-sm-light" placeholder="name@example.com" required></input>
